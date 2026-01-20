@@ -37,7 +37,11 @@ cargo run -- --modern
   - `PIECE ORIENTATION POSITION` (ex: `C 0 A2`)  
   - `PIECE ORIENTATION X Y`      (ex: `C 0 0 2`)
 - Voir toutes les pièces (orientation 0) : `show all`
+<img width="524" height="66" alt="image" src="https://github.com/user-attachments/assets/9567fbbc-ced1-48e2-9471-34fe2f775360" />
+
 - Voir les orientations d’une pièce : `show PIECE` (ex: `show C`)
+<img width="524" height="66" alt="image" src="https://github.com/user-attachments/assets/cb3e25fd-45ea-494b-8994-15e26711ebf8" />
+
 - Retirer une pièce placée : `del PIECE` (ex: `del C`)
 - Afficher la solution du puzzle initial : `solution`
 - Résoudre l’état courant (10s max) : `resolve`
